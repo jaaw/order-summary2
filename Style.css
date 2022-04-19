@@ -1,0 +1,90 @@
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(244, 74%, 88%) ;
+}
+
+.card{
+    width: 300px;
+    margin-left: 43%;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: 50px;
+    padding-bottom: 10px; 
+    background-color: white;
+}
+.main-img{
+    width: 20.75rem;
+    margin-top: -16px;
+    margin-left: -16px;
+    /* margin-right: 0px; */
+    border-radius: 10px 10px 0 0; 
+    
+}
+p{
+    font-size: 16px;
+    text-align: center;
+    color: rgb(54, 78, 99);
+}
+.card h2{
+    text-align: center;
+}
+.price img{   
+    float: left;
+margin-top: 12px;
+margin-left: 5px;;
+}
+.price h4{
+    margin-left: 10px;
+    float: left;
+    position: relative;
+    bottom: 5px;
+}
+.price  {
+   margin-top: 50px;
+   border-radius: 10px;
+   background-color: aliceblue;
+   width: 280px;
+   margin-left: 12px;
+   
+}
+.submit button{
+    background-color: blue;
+    color: white;
+    margin-left: 5% ;
+    border-radius: 10px;
+    width: 270px;
+    padding: 10px ;
+    border-color: blue;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(53, 53, 175);
+    transition: .2s;
+}
+.price a{
+    float: right;
+    margin-right: 10px;
+    position: relative; 
+    bottom: 10px;
+   }
+   .price h5{
+       position: relative;
+       right: 80px;
+       bottom: 15px;
+       color: grey;
+        }
+    
+.cancel button{
+    text-align: center;
+    margin-left: 35%;
+    margin-bottom: 10px;
+    background-color: white;
+    border-style: hidden;
+    cursor: pointer;
+    font-weight: 600;
+}
+cancel:hover{
+    color: gray;
+    transition: .2s;
+
+}
